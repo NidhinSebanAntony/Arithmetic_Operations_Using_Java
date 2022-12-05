@@ -6,10 +6,16 @@ public class BasicArithmeticOperations {
         int x = input.nextInt();
         int y = input.nextInt();
         addition(x,y);
+        subtraction(x,y);
     }
 
     public static void addition(int x, int y){
         int add = x + y;
         System.out.println(x+" + "+y+" = "+ add);
+    }
+
+    public static void subtraction(int x, int y){
+        int sub = x - y;
+        System.out.println(x+" - "+y+" = "+ sub);
     }
 }
