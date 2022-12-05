@@ -7,8 +7,8 @@ public class BasicArithmeticOperations {
         int y = input.nextInt();
         addition(x,y);
         subtraction(x,y);
+        division(x,y);
         multiplication(x,y);
-
     }
 
     public static void addition(int x, int y){
@@ -21,8 +21,14 @@ public class BasicArithmeticOperations {
         System.out.println(x+" - "+y+" = "+ sub);
     }
 
-        public static void multiplication(int x, int y){
+
+    public static void division(int x, int y){
+        int div = x / y;
+        System.out.println(x+" / "+y+" = "+ div);
+    }
+    public static void multiplication(int x, int y){
         int mul = x * y;
         System.out.println(x+" * "+y+" = "+ mul);
+
     }
 }
