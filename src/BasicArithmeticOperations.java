@@ -7,6 +7,7 @@ public class BasicArithmeticOperations {
         int y = input.nextInt();
         addition(x,y);
         subtraction(x,y);
+        division(x,y);
     }
 
     public static void addition(int x, int y){
@@ -17,5 +18,10 @@ public class BasicArithmeticOperations {
     public static void subtraction(int x, int y){
         int sub = x - y;
         System.out.println(x+" - "+y+" = "+ sub);
+    }
+
+    public static void division(int x, int y){
+        int div = x / y;
+        System.out.println(x+" / "+y+" = "+ div);
     }
 }
